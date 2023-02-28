@@ -268,13 +268,11 @@ blog .blog-list .btn-group {
   display: flex;
   justify-content: center;
   padding: 10px;
-  border: 1px solid #fff;
+  border: 1px solid #9a9a9a;
   font-size: large;
   text-decoration: none;
 }
-/* .hamburger-nav-container a .m-nav{
-  
-} */
+
 
 #barsmenu {
   display: none;
@@ -282,6 +280,8 @@ blog .blog-list .btn-group {
 @media only screen and (max-width: 500px) {
   #barsmenu {
       display: block;
+      margin-left: 80px;
+      border-color: #110e0e;
   }
 
   .item-collapse {
@@ -292,7 +292,7 @@ blog .blog-list .btn-group {
 }
 .left-side a img{
   /* height: 80px; */
-  width: 100%;
+  width: 100px;
 }
 
  
@@ -357,19 +357,20 @@ blog .blog-list .btn-group {
 @media only screen and (max-width:700px) {
   .blog .blog-list {
     width: 100%;
-    padding-left: 10px;
-    margin-top: 50px;
-    box-shadow: 50px auto;
+    padding-left: none;
+    /* margin-top: 50px; */
+    /* box-shadow: 26px 26px 5px 25px rgba(29,29,29,0.25); */
     margin-bottom: 80px;
     flex-wrap: wrap;  
     display: flex;
     align-items: center;
     /* height: 50px; */
     border-radius: 10px solid;
+    /* background-color: #9a9a9a; */
   
   }
   .detail-blog-content{
-    font-size: 10px;
+    font-size: 7px;
   }
   .blog .list-title{
     font-weight: bold;
@@ -378,14 +379,17 @@ blog .blog-list .btn-group {
   }
   
   .blog .blog-list .blog-list-item {
-    width: 40%;
+    width: 43%;
     padding: 2;
     margin-bottom: 20px;
-    border: 2px solid #dbdbdb;
-    border-radius: 8px;
+    border: 1px solid #dbdbdb;
+    border-radius: 0px 8px;
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
+    box-shadow: 0px 10px 10px rgba(29,29,29,0.25);
+   
+
   }
   .blog .blog-list .blog-content h1 {
     font-weight: bold;
@@ -408,9 +412,12 @@ blog .blog-list .btn-group {
    font-size: 15px;
   }
   
-  blog .blog-list .btn-group { 
+  .blog .blog-list .btn-group { 
     margin-bottom: none;
     flex-wrap: wrap;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
   }
   
   
@@ -447,13 +454,14 @@ blog .blog-list .btn-group {
   .blog .blog-list .blog-list-item p {
     margin-top: 5px;
     font-weight: normal;
-    font-size: 7px;
+    font-size: 8px;
     line-height: 10px;
     text-align: justify;
-    /* padding-right: 30px; */
+    /* text-align: center; */
+    padding-right: 10px;
   }
   
-  
+/*   
   .blog .blog-list .btn-group .btn-edit {
     padding: 5px 10px;
     border: 0;
@@ -468,6 +476,6 @@ blog .blog-list .btn-group {
     border-radius: 4px;
     background: #110e0e;
     color: #fff;
-  }
+  } */
    
 }

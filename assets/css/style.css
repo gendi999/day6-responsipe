@@ -169,7 +169,7 @@ body{
   display: flex;
   justify-content: center;
   padding: 10px;
-  border: 1px solid #fff;
+  border: 1px solid #9a9a9a;
   font-size: large;
   text-decoration: none;
 }
@@ -181,6 +181,7 @@ body{
 @media only screen and (max-width: 900px) {
   #barsmenu {
       display: block;
+      border: none;
   }
 
   .item-collapse {
